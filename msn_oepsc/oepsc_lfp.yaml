@@ -1,0 +1,43 @@
+Acq_number: 41
+Final Analysis: true
+LFP name: AD0
+buttons: {}
+check_boxes:
+  charge_transfer: true
+  curve_fit_decay: false
+  est_decay: true
+combo_boxes:
+  curve_fit_type: s_exp
+  lfp_filter_selection: remez_2
+  lfp_window_edit: hann
+  o_filter_selection: remez_2
+  o_window_edit: hann
+double_spinboxes:
+  lfp_beta_sigma: '0.00'
+  o_beta_sigma: '0.00'
+line_edits:
+  lfp_b_end_edit: '950'
+  lfp_b_start_edit: '850'
+  lfp_high_pass_edit: ''
+  lfp_high_width_edit: ''
+  lfp_low_pass_edit: '300'
+  lfp_low_width_edit: '100'
+  lfp_order_edit: '301'
+  lfp_polyorder_edit: '3'
+  lfp_pulse_start_edit: '1000'
+  lfp_sample_rate_edit: '10000'
+  o_b_end_edit: '950'
+  o_b_start_edit: '850'
+  o_high_pass_edit: ''
+  o_high_width_edit: ''
+  o_low_pass_edit: '600'
+  o_low_width_edit: '300'
+  o_neg_end_edit: '1050'
+  o_order_edit: '301'
+  o_polyorder_edit: '3'
+  o_pos_end_edit: '1055'
+  o_pos_start_edit: '1045'
+  o_pulse_start_edit: '1001'
+  o_sample_rate_edit: '10000'
+  qt_spinbox_lineedit: '0.00'
+oEPSC name: AD1
